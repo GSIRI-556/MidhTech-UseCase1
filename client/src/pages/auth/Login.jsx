@@ -56,7 +56,10 @@ export default function Login() {
               type="button"
               onClick={() => setRole('staff')}
               className={`flex flex-1 items-center justify-center gap-2 rounded-lg py-2.5 text-sm font-medium transition ${
-                role === 'staff' ? 'bg-primary text-white' : 'text-white/60 hover:text-white'
+                // 
+                role === 'staff'
+                      ? 'bg-teal-500 text-white hover:bg-teal-600'
+                       : 'text-white/60 hover:text-white'
               }`}
             >
               <Users className="h-4 w-4" /> Staff
@@ -65,7 +68,10 @@ export default function Login() {
               type="button"
               onClick={() => setRole('admin')}
               className={`flex flex-1 items-center justify-center gap-2 rounded-lg py-2.5 text-sm font-medium transition ${
-                role === 'admin' ? 'bg-primary text-white' : 'text-white/60 hover:text-white'
+                // role === 'admin' ? 'bg-primary text-white' : 'text-white/60 hover:text-white'
+                role === 'admin'
+                    ? 'bg-teal-500 text-white hover:bg-teal-600'
+                    : 'text-white/60 hover:text-white'
               }`}
             >
               <Shield className="h-4 w-4" /> Admin
