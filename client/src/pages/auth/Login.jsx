@@ -40,7 +40,9 @@ export default function Login() {
         <div className="absolute -left-40 -top-40 h-80 w-80 rounded-full bg-blue-500/20 blur-3xl" />
         <div className="absolute -bottom-40 -right-40 h-80 w-80 rounded-full bg-indigo-500/20 blur-3xl" />
       </div>
-
+     <div>
+      <h1>this is Sample test </h1>
+      </div>
       <div className="relative w-full max-w-md">
         <div className="mb-8 text-center">
           <div className="mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-primary/20 glass">
