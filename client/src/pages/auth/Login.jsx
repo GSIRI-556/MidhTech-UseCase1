@@ -41,7 +41,7 @@ export default function Login() {
         <div className="absolute -bottom-40 -right-40 h-80 w-80 rounded-full bg-indigo-500/20 blur-3xl" />
       </div>
      <div>
-      <h1>this is Sample test </h1>
+      <h1>this is Sample test for usecase1 </h1>
       </div>
       <div className="relative w-full max-w-md">
         <div className="mb-8 text-center">
